@@ -7,16 +7,24 @@
         flex-direction: row;
         text-align: center;
     }
-    .content-right {
-        display: none;
+    .content {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .content-right img {
+        height: 300px;
     }
     .home-article {
         flex-direction: column;
         margin: 0;
     }
+    .home-article-content {
+        padding-left: 0px;
+    }
     .home-article-img {
         text-align: center;
-        width: 62vw;
+        width: 250px;
     }
     .year {
         top: 25px;
