@@ -1,0 +1,21 @@
+.blog-post-content h1 {
+    text-align: center;
+}
+
+.blog-post-content {
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.mar {
+    margin-top: 10px;
+}
+
+.three {
+    flex-direction: column;
+    align-items: center;
+}
