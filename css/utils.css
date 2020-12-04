@@ -62,3 +62,6 @@
     font-weight: bold;
     font-family: var(--font1);
 }
+.paras {
+    padding: 10px;
+}
