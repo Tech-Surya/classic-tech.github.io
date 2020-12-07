@@ -77,6 +77,6 @@
     width: 90vw;
     margin: auto;
     margin-top: 2px;
-    background-color: white;
+    background-color: var(--main-bg-color);
     box-shadow: 1px 1px 5px grey;
 }
