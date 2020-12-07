@@ -3,19 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="propeller" content="9ced3336cc134096b278cbfc2f50073c">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Blog With Coding</title>
+    <title>Classic-Tech</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Timmana&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 
@@ -36,7 +32,6 @@
                 <button class="btn">Search</button>
             </form>
         </div>
-
     </nav>
 
     <div class="content max-width-1 m-auto">
@@ -55,17 +50,6 @@
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto">
-        <!-- <div class="year">
-            <div>
-                <h3>Year</h3>
-            </div>
-            <div>
-                <input type="radio" name="year" id="">2020
-            </div>
-            <div>
-                <input type="radio" name="year" id="">2021
-            </div>
-        </div> -->
 
         <b class="explore font2">Explore Articles</b>
         <div class="home-article">
@@ -130,8 +114,48 @@
         </div>
     </div>
 
+    <footer class="m-auto font2">
+        <div class="foot-img">
+            <img src="img/logo2.png" alt="">
+        </div>
 
-    <!-- <a href="https://www.vecteezy.com/free-vector/customer-support">Customer Support Vectors by Vecteezy</a> -->
+        <div class="foot-credit">
+            <p>Copyright Reserved by <a href="">Classic-Tech</a></p>
+            <p class="paras2">Vectors Credit
+                <a href="https://vecteezy.com/">Vecteezy</a>
+            </p>
+        </div>
+    </footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGEBX4KEVT"></script>
+    <script>
+        //Comment Box
+        window.gc_params = {
+            graphcomment_id: 'Classic-Tech',
+
+            // if your website has a fixed header, indicate it's height in pixels
+            fixed_header_height: 0,
+        };
+
+        (function() {
+            var gc = document.createElement('script');
+            gc.type = 'text/javascript';
+            gc.async = true;
+            gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+        })();
+
+
+        //Google Analytical Tool
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZGEBX4KEVT');
+    </script>
 </body>
 
 </html>
