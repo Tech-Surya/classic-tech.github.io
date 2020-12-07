@@ -16,6 +16,28 @@
 }
 
 .three {
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
+}
+
+.blog-related-img img {
+    width: 100vw;
+    height: 300px;
+}
+
+.blog-related-img {
+    display: flex;
+    justify-content: center;
+}
+
+.ads {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.addthis_inline_share_toolbox_epaq {
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 3px;
 }
