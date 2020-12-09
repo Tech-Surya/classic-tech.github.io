@@ -18,22 +18,16 @@
     .paras {
         padding: 15px;
     }
-    .home-article {
-        flex-direction: column;
-        margin: 0;
-    }
     .home-article-content {
         padding-left: 0px;
     }
-    .home-article-img {
+    .home-article img {
         text-align: center;
         width: 250px;
     }
-    .form-input {
-        width: 50%;
-    }
-    .row {
-        flex-direction: column;
+    .blog-related-img img {
+        width: 85vw;
+        height: 30vh;
     }
     footer img {
         width: 85vw;
