@@ -15,6 +15,22 @@
     flex-direction: column;
 }
 
+.progress {
+    height: 5px;
+    background: transparent;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.progress_highlight {
+    background: var(--main-bg-color);
+    height: 100%;
+    width: 0%;
+    transition: width 0.15s linear;
+}
+
 .mar {
     margin-top: 10px;
 }
