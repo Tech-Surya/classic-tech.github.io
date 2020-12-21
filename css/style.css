@@ -6,6 +6,12 @@
 
 body {
     background-color: rgb(240, 239, 239);
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--main-bg-color);
+    color: black;
 }
 
 .navigation {
@@ -45,8 +51,8 @@ body {
     color: var(--main-bg-color);
 }
 
-form {
-    font-family: var(--font2);
+.right img {
+    width: 25vw;
 }
 
 .content {
@@ -64,6 +70,10 @@ form {
     flex-direction: column;
 }
 
+.content-left p {
+    line-height: 20px;
+}
+
 .content-right {
     display: flex;
     justify-content: center;
@@ -77,6 +87,10 @@ form {
 
 .explore {
     font-size: 24px;
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
 }
 
 .home-articles {
@@ -86,10 +100,14 @@ form {
     /* position: relative; */
 }
 
+.home-articles a {
+    text-decoration: none;
+}
+
 .home-article {
     display: flex;
     flex-wrap: wrap;
-    margin: 22px;
+    margin: 22px 22px 22px 0;
 }
 
 .home-article img {
@@ -99,17 +117,16 @@ form {
 .home-article-content {
     align-self: center;
     padding-top: 15px;
-    padding-left: 26px;
+    padding-left: 25px;
     padding-bottom: 15px;
-}
-
-.home-article-content a {
-    text-decoration: none;
     color: black;
 }
 
 .author {
-    padding-top: 5px;
+    padding-top: 8px;
+    color: rgb(124, 120, 120);
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .addthis_inline_share_toolbox_epaq {
@@ -123,6 +140,38 @@ form {
     color: rgb(0, 0, 0);
 }
 
+.trending {
+    margin-top: 3px !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    width: 28vw;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    margin: 9px;
+    padding: 15px;
+}
+
+.flex a {
+    text-decoration: none;
+    color: black;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
 .construction {
     display: flex;
     justify-content: center;
@@ -133,31 +182,111 @@ form {
     height: 60vh;
 }
 
-footer {
+.newsletterBlue {
+    margin-bottom: 3px !important;
+    margin-top: 3px !important;
+    background-color: white;
+}
+
+.sib-form {
+    padding: 0 !important;
+}
+
+.news2 {
+    font-size: 32px;
+}
+
+.news3 {
+    padding: 8px 0;
+}
+
+.news4 {
+    font-size: 16px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.news6 {
+    font-size: 12px;
+}
+
+.news9 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-bg-color);
+    border-radius: 3px;
+}
+
+.join_blogger {
+    height: 100%;
+    background-color: white;
+    color: var(--main-bg-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 3px !important;
+    margin-top: 3px !important;
+}
+
+.join_blogger a {
+    text-decoration: none;
+}
+
+.join_btn h3 {
+    color: Black;
+    border: 4px solid rgb(87, 35, 139);
+    border-radius: 5px;
+    font-size: larger;
+    padding: 8px 18px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.join_btn h3:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.foot-img {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 3px !important;
-    padding: 5px;
-    width: 90vw;
-    height: 100%;
-    /* text-align: center; */
-    align-items: center;
-    color: white;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 1px 1px 5px grey;
 }
 
-footer a {
+.foot-img img {
+    width: 43vw;
+    height: 15vh;
+}
+
+.moreOpt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subMore {
+    display: flex;
+    flex-direction: column;
+}
+
+.moreOpt a {
     text-decoration: none;
     color: var(--main-bg-color);
-    cursor: pointer;
+    font-size: 18px;
 }
 
-footer img {
-    width: 50vw;
-}
-
-.foot-credit {
+.credit {
     text-align: center;
+    margin-top: 10px;
+}
+
+.credit a {
+    text-decoration: none;
+    color: var(--main-bg-color);
 }
