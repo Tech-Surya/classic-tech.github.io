@@ -8,7 +8,7 @@
 
 .blog-content-left {
     background-color: white;
-    font-family: var(--font1);
+    /* font-family: var(--font1); */
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -36,8 +36,9 @@
 }
 
 .blog-related-img img {
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
 }
 
 .blog-related-img {
@@ -59,6 +60,7 @@
 }
 
 .addthis_inline_share_toolbox_epaq {
-    box-shadow: 1px 1px 5px grey;
+    /* border: 1px solid gray; */
+    /* box-shadow: 1px 1px 5px grey; */
     margin-top: 3px;
 }
