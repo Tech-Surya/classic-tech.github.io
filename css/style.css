@@ -16,12 +16,10 @@ body {
 
 .navigation {
     font-family: var(--font1);
-    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    margin-bottom: 3px !important;
 }
 
 .left {
@@ -45,6 +43,7 @@ body {
 .left ul li a {
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 }
 
 .left ul li a:hover {
@@ -57,7 +56,6 @@ body {
 
 .content {
     height: 100%;
-    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
@@ -72,6 +70,7 @@ body {
 
 .content-left p {
     line-height: 20px;
+    padding: 15px 15px 0px 15px;
 }
 
 .content-right {
@@ -81,23 +80,23 @@ body {
 }
 
 .content-right img {
-    height: 320px;
+    height: 350px;
     padding: 3px;
 }
 
 .explore {
-    font-size: 24px;
-    background-color: white;
-    width: 90vw;
-    margin: auto;
-    padding: 10px;
+    font-size: 22px;
+}
+
+.explore2 {
+    font-size: 22px;
+    width: 100%;
+    padding: 10px 0px 5px 10px;
 }
 
 .home-articles {
-    background-color: rgb(255, 255, 255);
     margin-top: 23px;
     padding: 10px;
-    /* position: relative; */
 }
 
 .home-articles a {
@@ -107,7 +106,7 @@ body {
 .home-article {
     display: flex;
     flex-wrap: wrap;
-    margin: 22px 22px 22px 0;
+    margin: 8px 22px 8px 0;
 }
 
 .home-article img {
@@ -116,24 +115,14 @@ body {
 
 .home-article-content {
     align-self: center;
-    padding-top: 15px;
-    padding-left: 25px;
-    padding-bottom: 15px;
+    padding: 15px 0px 15px 10px;
     color: black;
-}
-
-.author {
-    padding-top: 8px;
-    color: rgb(124, 120, 120);
-    font-size: 14px;
-    font-weight: 600;
 }
 
 .addthis_inline_share_toolbox_epaq {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: white;
     padding: 10px 0px 5px 0px;
     width: 90vw;
     align-items: center;
@@ -141,7 +130,6 @@ body {
 }
 
 .trending {
-    margin-top: 3px !important;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -154,12 +142,13 @@ body {
 
 .item {
     display: flex;
-    width: 28vw;
+    width: 27vw;
     flex-direction: column;
-    background-color: white;
-    border-radius: 5px;
     margin: 9px;
     padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px grey;
 }
 
 .flex a {
@@ -169,7 +158,11 @@ body {
 
 .item img {
     width: 100%;
-    height: auto;
+    height: 30vh;
+}
+
+.item h3 {
+    padding-top: 10px;
 }
 
 .construction {
@@ -180,12 +173,6 @@ body {
 .construction img {
     width: 65vw;
     height: 60vh;
-}
-
-.newsletterBlue {
-    margin-bottom: 3px !important;
-    margin-top: 3px !important;
-    background-color: white;
 }
 
 .sib-form {
@@ -220,25 +207,28 @@ body {
 
 .join_blogger {
     height: 100%;
-    background-color: white;
     color: var(--main-bg-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
-    margin-bottom: 3px !important;
-    margin-top: 3px !important;
 }
 
 .join_blogger a {
     text-decoration: none;
 }
 
+.guide {
+    width: 400px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .join_btn h3 {
     color: Black;
     border: 4px solid rgb(87, 35, 139);
     border-radius: 5px;
-    font-size: larger;
+    font-size: 1.4rem;
     padding: 8px 18px;
     text-decoration: none;
     transition: all 0.4s ease;
@@ -252,7 +242,6 @@ body {
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: white;
 }
 
 .foot-img {
@@ -261,8 +250,7 @@ body {
 }
 
 .foot-img img {
-    width: 43vw;
-    height: 15vh;
+    width: 50vw;
 }
 
 .moreOpt {
@@ -279,6 +267,7 @@ body {
     text-decoration: none;
     color: var(--main-bg-color);
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .credit {
