@@ -8,27 +8,9 @@
 
 .blog-content-left {
     background-color: white;
-    /* font-family: var(--font1); */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-}
-
-.progress {
-    height: 5px;
-    background: transparent;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.progress_highlight {
-    background: var(--main-bg-color);
-    height: 100%;
-    width: 0%;
-    transition: width 0.15s linear;
 }
 
 .mar {
@@ -55,12 +37,9 @@
     font-weight: 300;
     opacity: 73%;
     box-shadow: 1 0 5px 1px grey;
-    /* border: 1px solid rgb(161, 161, 161); */
     background-color: rgb(240, 239, 239);
 }
 
 .addthis_inline_share_toolbox_epaq {
-    /* border: 1px solid gray; */
-    /* box-shadow: 1px 1px 5px grey; */
     margin-top: 3px;
 }
