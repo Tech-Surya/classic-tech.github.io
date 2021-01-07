@@ -266,13 +266,15 @@ body {
 .moreOpt a {
     text-decoration: none;
     color: var(--main-bg-color);
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 10px;
 }
 
 .credit {
     text-align: center;
     margin-top: 10px;
+    background-color: black;
+    color: white;
 }
 
 .credit a {
