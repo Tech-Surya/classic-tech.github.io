@@ -56,6 +56,35 @@
     font-weight: 600;
 }
 
+
+.tags {
+    display: flex;
+}
+
+.tag_1 {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.tag_2 {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.tag_3 {
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
 #graphcomment {
     width: 90vw;
     margin: auto;
