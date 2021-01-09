@@ -19,8 +19,8 @@
 
 .blog-related-img img {
     width: 100%;
-    max-width: 600px;
-    max-height: 300px;
+    max-width: 1230px;
+    max-height: 450px;
 }
 
 .blog-related-img {
@@ -35,8 +35,7 @@
     flex-direction: column;
     height: 100%;
     font-weight: 300;
-    opacity: 73%;
-    box-shadow: 1 0 5px 1px grey;
+    opacity: 75%;
     background-color: rgb(240, 239, 239);
 }
 
